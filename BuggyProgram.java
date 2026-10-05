@@ -2,10 +2,10 @@ public class BuggyProgram {
 
     // Method 1: nested conditionals
     public static String getGrade(int score) {
-        if (score > 90) {
+        if (score >= 90) {
             return "Exceeds";
         } else {
-            if (score > 80) {
+            if (score >= 80) {
                 return "Meets";
             } else {
                 return "Does Not Meet";
@@ -28,15 +28,20 @@ public class BuggyProgram {
 
     // Method 3: loop with bounds (no array)
     public static int sumRange(int start, int end) {
-        int sum = 0;
+    int sum = 0;
 
+    if (start <= end) {
         for (int i = start; i <= end; i++) {
             sum += i;
         }
-
-        return sum;
+    } else {
+        for (int i = start; i >= end; i--) {
+            sum += i;
+        }
     }
 
+    return sum;
+}
     public static void main(String[] args) {
         System.out.println("Test the program using the JUnit tests");
     }
