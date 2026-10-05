@@ -4,8 +4,7 @@
 Travis Doughty
 
 ## GitHub Repository URL
-Paste your GitHub repository URL here.
-https://github.com/A-Sour-Boy/unit8_lab1.git
+https://github.com/A-Sour-Boy/unit8_lab1
 ---
 
 # Commit 1: Initial Commit
