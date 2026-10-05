@@ -91,3 +91,5 @@ https://github.com/A-Sour-Boy/unit8_lab1
 
 ## Why is it useful to document your work after completing a programming task?
 - Documentation helps explain changes and makes the project easier to understand later.
+
+README reviewed and updated.
